@@ -1,8 +1,18 @@
-# React + Vite
+# Desafio Calculadora 🖩
+Projeto desenvolvido para os estudos de **React.js** e **Styled Components**. Foi criado como parte de um desafio de desenvolvimento frontend para o segundo módulo do curso de **Desenvolvimento FrontEnd do @VainaWeb**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto 🚀
+O objetivo deste projeto foi praticar o gerenciamento de estados a componentes funcionais, com o uso do hook **useState** para o desenvolvimento de uma calculadora simples.
 
-Currently, two official plugins are available:
+### Tecnologias Utilizadas ✔️
+- Javascript: Para criar a estrutura lógica da página.
+- Styled-components: Para uma estilização mais dinâmica e de fácil manutenção.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Demonstração:
+
+![Versão desktop](/public/desktop.png)
+
+
+![Versão mobile](/public/mobile.png)
+

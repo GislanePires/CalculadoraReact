@@ -41,6 +41,7 @@ export const CalculatorContainer = styled.section`
   justify-content: center;
   align-items: center;
   height: 60vh;
+  padding-top: 3rem;
   position: relative;
   background-color: #201b28;
   border-radius: 3rem;

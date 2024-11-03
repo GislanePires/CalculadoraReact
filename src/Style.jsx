@@ -96,7 +96,6 @@ export const InputButton = styled.section`
   align-items: center;
   width: 18rem;
   height: 8rem;
-  /* border: 1px solid orange; */
   border-radius: 1rem;
   padding: 1rem;
   background-color: #0c0b0d;
@@ -131,6 +130,7 @@ export const ButtonContainer = styled.div`
     height: 2rem;
     border-radius: 0.5rem;
     background-color: orange;
+    color: #efe5e5;
     cursor: pointer;
 
     transition: all 0.8s ease;

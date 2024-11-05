@@ -1,9 +1,8 @@
 import { useState } from "react";
-import * as S from "./Style"; //importar tudo como S de "nome-do-arquivo"
+import * as S from "./Style";
 
 export default function App() {
-  //primeiroValor e segundoValor são as variáveis de estado
-  //setPrimeiroValor e setSegundoValor são as funções atualizadoras
+
 
   const [primeiroValor, setPrimeiroValor] = useState();
   const [segundoValor, setSegundoValor] = useState();

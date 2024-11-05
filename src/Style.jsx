@@ -14,7 +14,7 @@ export const rotateLeft = keyframes`
     transform: translateZ(0);
   }
   100% {
-    transform: translate3d(-50%,0,0);
+    transform: translate3d(-100%,0,0);
   }
 
 `;
@@ -62,11 +62,11 @@ export const CalculatorContainer = styled.section`
 `;
 
 export const Cloud = styled.div`
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   background-size: cover;
   position: absolute;
   bottom: 0;
-  width: 250.625em;
+  width: 200vw;
   height: 100%;
   animation: ${rotateLeft} 80s linear infinite;
   z-index: 1;

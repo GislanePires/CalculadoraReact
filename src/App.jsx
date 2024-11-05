@@ -80,6 +80,10 @@ export default function App() {
           src="https://demos.creative-tim.com/paper-kit-react/static/media/clouds.3c700c13.png"
           alt=""
         />
+           <img
+          src="https://demos.creative-tim.com/paper-kit-react/static/media/clouds.3c700c13.png"
+          alt=""
+        />
       </S.Cloud>
     </S.Main>
   );

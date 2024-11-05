@@ -14,7 +14,7 @@ export const rotateLeft = keyframes`
     transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-100vw,0,0);
+    transform: translate3d(-100%,0,0);
   }
 
 `;
@@ -66,7 +66,7 @@ export const Cloud = styled.div`
   background-size: cover;
   position: absolute;
   bottom: 0;
-  width: 200vw;
+  width: 500vw;
   height: 100%;
   animation: ${rotateLeft} 90s linear infinite;
   z-index: 1;

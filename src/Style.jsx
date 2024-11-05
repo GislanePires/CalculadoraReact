@@ -10,7 +10,7 @@ overflow: hidden;
 `;
 
 export const rotateLeft = keyframes`
-      0% {
+  0% {
     transform: translateZ(0);
   }
   100% {
@@ -19,8 +19,7 @@ export const rotateLeft = keyframes`
 
 `;
 export const Main = styled.main`
-  background-image: 
-/* linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), */ url(https://img.goodfon.com/wallpaper/nbig/b/5b/alisa-v-strane-chudes-tim-7375.webp);
+  background-image: url(https://img.goodfon.com/wallpaper/nbig/b/5b/alisa-v-strane-chudes-tim-7375.webp);
   background-size: cover;
   background-position: center;
   box-shadow: 0px -83px 131px 64px rgba(0, 0, 0, 1) inset;
@@ -47,19 +46,18 @@ export const CalculatorContainer = styled.section`
   border-radius: 3rem;
   z-index: 4;
   box-shadow: 0px -83px 131px 64px rgba(0, 0, 0, 1) inset;
--webkit-box-shadow: 0px -20px 131px 20px rgba(0, 0, 0, 1) inset;
--moz-box-shadow: 0px -60px 131px 40px rgba(0, 0, 0, 1) inset;
-transition: all 0.8s ease;
-        position: relative;
-        overflow: hidden;
+  -webkit-box-shadow: 0px -20px 131px 20px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 0px -60px 131px 40px rgba(0, 0, 0, 1) inset;
+  transition: all 0.8s ease;
+  position: relative;
+  overflow: hidden;
 
-        &:hover {
-            transform: translateY(-5px);
-        }
+  &:hover {
+    transform: translateY(-5px);
+  }
   h1 {
     color: #f8f4fa;
     font-size: 2rem;
-    /* padding-bottom: 3rem; */
   }
 `;
 
@@ -88,7 +86,6 @@ export const CalculatorSection = styled.section`
   z-index: 4;
   border-radius: 3rem;
   padding: 2rem;
-  
 `;
 export const InputButton = styled.section`
   display: flex;
@@ -105,7 +102,6 @@ export const InputSection = styled.section`
   display: flex;
   width: 100%;
   justify-content: space-around;
-  /* border: 1px solid pink; */
 
   input {
     width: 7.7rem;
